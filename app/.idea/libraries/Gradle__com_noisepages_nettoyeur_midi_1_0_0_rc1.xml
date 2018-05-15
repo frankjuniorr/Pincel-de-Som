@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.noisepages.nettoyeur:midi-1.0.0-rc1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/midi-1.0.0-rc1.aar/a25727f192acc772e8d19983c3c8e734/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/midi-1.0.0-rc1.aar/a25727f192acc772e8d19983c3c8e734/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.noisepages.nettoyeur/midi/1.0.0-rc1/154fbf9130773ebf0769f6f9ec050e7f61afcb68/midi-1.0.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

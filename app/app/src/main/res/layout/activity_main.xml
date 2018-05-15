@@ -1,0 +1,77 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.frankjunior.pinceldesom.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <ToggleButton
+            android:id="@+id/btn_amarelo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/check_image_amarelo"
+            android:onClick="clickButtonAmarelo"
+            android:paddingBottom="35dp"
+            android:paddingLeft="15dp"
+            android:textOff=""
+            android:textOn=""/>
+
+        <ToggleButton
+            android:id="@+id/btn_vermelho"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/check_image_vermelho"
+            android:onClick="clickButtonVermelho"
+            android:paddingBottom="35dp"
+            android:paddingLeft="15dp"
+            android:textOff=""
+            android:textOn=""/>
+
+        <ToggleButton
+            android:id="@+id/btn_verde"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/check_image_verde"
+            android:onClick="clickButtonVerde"
+            android:paddingBottom="35dp"
+            android:paddingLeft="15dp"
+            android:textOff=""
+            android:textOn=""/>
+
+        <ToggleButton
+            android:id="@+id/btn_azul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/check_image_azul"
+            android:onClick="clickButtonAzul"
+            android:paddingBottom="35dp"
+            android:paddingLeft="15dp"
+            android:textOff=""
+            android:textOn=""/>
+
+    </LinearLayout>
+
+</FrameLayout>

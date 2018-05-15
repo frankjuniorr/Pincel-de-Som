@@ -1,0 +1,62 @@
+#N canvas 1385 171 895 540 10;
+#X obj 133 53 adc~;
+#X obj 241 80 osc~;
+#X obj 242 197 clip~ -1 1;
+#X obj 134 306 *~;
+#X obj 337 115 hsl 128 15 1 20 1 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 246 55 hsl 128 15 0.5 25 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X text 292 81 <-- Sine wave (between -1 and 1);
+#X text 281 146 <-- Multipled by a positive number X;
+#X text 303 160 (between -X and X);
+#X text 313 197 <-- Trim at -1 and 1;
+#X text 336 225 a square wave as X increases);
+#X text 336 211 (the sine wave tends to become;
+#X text 382 296 <-- Normalize between 0 and 1;
+#X text 332 100 Number X (between 1 and 20 \, log);
+#X text 276 378 Patch by Pierre Massat \, GuitarExtended \, 2012;
+#X text 273 392 (based on a suggestion by "mod" \, Pure Data forum
+\, 2011);
+#X obj 242 280 *~;
+#X obj 242 309 +~;
+#X obj 319 261 hsl 128 15 0 0.5 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 319 282 5 0 0 0 - - -;
+#X floatatom 301 355 5 0 0 0 - - -;
+#X text 405 308 and adjust depth;
+#X text 408 37 ("Rate");
+#X text 531 100 ("Shape");
+#X text 316 246 "Depth";
+#X obj 270 232 inlet;
+#X obj 188 15 inlet;
+#X text 240 37 Frequency of the oscillator;
+#X text 408 37 ("Rate");
+#X obj 242 146 *~ 15;
+#X obj 79 417 dac~;
+#X obj 80 378 *~ 0;
+#X obj 129 368 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 149 346 r trigger_amarelo;
+#X obj 302 317 -;
+#X msg 280 290 1;
+#X connect 0 0 3 0;
+#X connect 1 0 29 0;
+#X connect 2 0 16 0;
+#X connect 3 0 31 0;
+#X connect 5 0 1 0;
+#X connect 16 0 17 0;
+#X connect 17 0 3 1;
+#X connect 18 0 19 0;
+#X connect 18 0 16 1;
+#X connect 19 0 34 1;
+#X connect 25 0 18 0;
+#X connect 26 0 5 0;
+#X connect 29 0 2 0;
+#X connect 31 0 30 0;
+#X connect 31 0 30 1;
+#X connect 32 0 31 1;
+#X connect 33 0 32 0;
+#X connect 34 0 20 0;
+#X connect 34 0 17 1;
+#X connect 35 0 34 0;
