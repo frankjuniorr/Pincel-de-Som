@@ -2,9 +2,9 @@
 
 # Pincel de Som
 
-[![dependence](https://img.shields.io/badge/dependence-libpd-blue.svg?style=true)](https://github.com/libpd/pd-for-android)
-![minSdkVersion 24](https://img.shields.io/badge/minSdkVersion-24-red.svg?style=true)
-![targetSdkVersion 27](https://img.shields.io/badge/targetSdkVersion-27-yellow.svg?style=true)
+[![dependence](https://img.shields.io/badge/dependence-libpd-0D47A1.svg?style=true)](https://github.com/libpd/pd-for-android)
+![minSdkVersion 24](https://img.shields.io/badge/minSdkVersion-24-F44336.svg?style=true)
+![targetSdkVersion 27](https://img.shields.io/badge/targetSdkVersion-27-F9A825.svg?style=true)
 
 </br>
 
