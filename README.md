@@ -42,15 +42,15 @@ This project have 3 parts
 
 ### [app]
 
-- Contais a Android code.
+> Contains a Android code.
 
 ### [audio]
 
-- Contais a Pure Data code.
+> Contains a Pure Data code.
 
 ### [scripts]
 
-- Contais a shell script to build PD code into Android path.
+> Contains a shell script to build PD code into Android path.
 
 ## License
 
