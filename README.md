@@ -31,6 +31,10 @@ The app works like a guitar pedal, where the user plug an eletric musical instru
 
 To plug an electric musical instrument in a smartphone is necessary an adapter called 'iRig'.
 
+![iRig](https://raw.githubusercontent.com/frankjuniorr/Pincel-de-Som/development/art/irig_example.jpg)
+
+illustrative picture
+
 ## Libraries and tools used in the project
 
 * [Pure Data](https://puredata.info/) - An open source visual programming language for sound synthesis.
@@ -63,7 +67,7 @@ This project have 3 parts
     this stuff is worth it, you can buy me a beer in return Frank Junior.
     ----------------------------------------------------------------------------
 ```
-   
+
 ![Beerware_logo](http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/BeerWare_Logo.svg/220px-BeerWare_Logo.svg.png)
 
 ```
