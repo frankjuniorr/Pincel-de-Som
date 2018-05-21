@@ -31,9 +31,10 @@ The app works like a guitar pedal, where the user plug an eletric musical instru
 
 To plug an electric musical instrument in a smartphone is necessary an adapter called 'iRig'.
 
-![iRig](https://raw.githubusercontent.com/frankjuniorr/Pincel-de-Som/development/art/irig_example.jpg)
-
-illustrative picture
+<p align="center">
+  <img src="art/irig_example.jpg">
+  <em>illustrative picture</em>
+</p>
 
 ## Libraries and tools used in the project
 
