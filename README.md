@@ -33,6 +33,7 @@ To plug an electric musical instrument in a smartphone is necessary an adapter c
 
 <p align="center">
   <img src="art/irig_example.jpg">
+  <br/>
   <em>illustrative picture</em>
 </p>
 
